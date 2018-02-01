@@ -39,5 +39,6 @@ PRODUCT_MANUFACTURER := BN
 # Device build info and fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=HD \
-    BUILD_FINGERPRINT="NOOK/HD/hummingbird:4.0.4/IMM76L/2.2.1.8015:user/release-keys" \
     PRIVATE_BUILD_DESC="HD-user 4.0.4 IMM76L 2.2.1.8015 release-keys"
+
+BUILD_FINGERPRINT := "NOOK/HD/hummingbird:4.0.4/IMM76L/2.2.1.8015:user/release-keys"
