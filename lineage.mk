@@ -17,15 +17,15 @@
 TARGET_SCREEN_WIDTH := 1440
 TARGET_SCREEN_HEIGHT := 900
 
-# Inherit some common Lineage stuff.
+# Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
 
 # Inherit device configuration for hummingbird
 $(call inherit-product, device/bn/hummingbird/full_hummingbird.mk)
-$(call inherit-product, device/bn/common/cm.mk)
+$(call inherit-product, device/bn/common/lineage.mk)
 
 # Device overlay
-DEVICE_PACKAGE_OVERLAYS += device/bn/hummingbird/overlay/cm
+DEVICE_PACKAGE_OVERLAYS += device/bn/hummingbird/overlay/lineage
 
 PRODUCT_NAME := lineage_hummingbird
 PRODUCT_MODEL := BN Nook HD
